@@ -69,8 +69,8 @@ main .right-rev {
   height: 30em;
   position: absolute;
   z-index: -1;
-  left: -3em;
-  top: -6em;
+  left: 5em;
+  top: 11em;
 }
 .cir-svg {
   height: 30em;
