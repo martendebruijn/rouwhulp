@@ -1,4 +1,81 @@
 html,
 body {
   font-family: 'Roboto', sans-serif;
+  line-height: 1.5 !important;
+  overflow-x: hidden;
+}
+:root {
+  --main-color: #ede7e1;
+  --text-color: #444444;
+  --accent-color: #303960;
+}
+body {
+  background: var(--main-color);
+  color: var(--text-color);
+}
+h1 {
+  color: var(--accent-color);
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  font-size: 5.5vh;
+  margin-bottom: 0.3em;
+}
+h2 {
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  font-size: large;
+  margin-bottom: 1.5em;
+}
+p {
+  letter-spacing: 0.2em;
+}
+.placeholder-img {
+  height: 300px;
+  width: 300px;
+  background: darkgrey;
+}
+header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+header .left {
+  width: 50%;
+  position: absolute;
+  left: 20%;
+  z-index: 1;
+}
+header .right {
+  position: absolute;
+  right: 20%;
+}
+main section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8em;
+}
+main .right,
+main .left-rev {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+main .left,
+main .right-rev {
+  width: 35%;
+}
+.header-svg {
+  height: 30em;
+  position: absolute;
+  z-index: -1;
+  left: -3em;
+  top: -6em;
+}
+.cir-svg {
+  height: 30em;
+  position: absolute;
+  z-index: -1;
+  right: -10%;
+  top: 150%;
 }
